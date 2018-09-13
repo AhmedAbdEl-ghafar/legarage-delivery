@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_row_listview"
+    >
+
+    <TextView
+        android:id="@+id/client_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tracking_no_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/client_name"
+        android:layout_alignStart="@+id/client_name"
+        android:layout_below="@+id/client_name"
+        android:layout_marginRight="7dp"
+        android:text="Tracking No."
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tracking_no"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/client_name"
+        android:layout_alignLeft="@+id/client_name"
+        android:layout_marginLeft="90dp"
+        android:layout_alignStart="@+id/client_name" />
+
+    <TextView
+        android:text="Phone 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone1_abel"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/tracking_no" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone1"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/tracking_no"
+        android:layout_alignLeft="@+id/tracking_no"
+        android:layout_alignStart="@+id/tracking_no" />
+
+    <TextView
+        android:text="Phone 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone2_label"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone1"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone2"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone1"
+        android:layout_alignLeft="@+id/phone1"
+        android:layout_alignStart="@+id/phone1" />
+
+    <TextView
+        android:text="Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contry_label"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone2"
+        android:layout_marginLeft="7dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contry"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone2"
+
+        android:layout_alignLeft="@+id/phone2"
+        android:layout_alignStart="@+id/phone2" />
+
+    <TextView
+        android:text="Governorate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gov_label"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/contry"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gov"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/contry"
+        android:layout_alignLeft="@+id/contry"
+        android:layout_alignStart="@+id/contry" />
+
+    <TextView
+        android:text="Area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areas_label"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/gov"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areas"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/gov"
+        android:layout_alignLeft="@+id/gov"
+        android:layout_alignStart="@+id/gov" />
+
+    <TextView
+        android:text="Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_label"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/areas"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/areas"
+        android:layout_alignLeft="@+id/areas"
+        android:layout_alignStart="@+id/areas" />
+
+
+
+    <TextView
+        android:text="Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_label"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/address_label"/>
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/address"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ahmedabdelghafar.legarage_delivery.event_shipment"
+    android:background="@drawable/home">
+
+    <TextView
+        android:id="@+id/client_name_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tracking_no_label_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/client_name_event"
+        android:layout_alignStart="@+id/client_name_event"
+        android:layout_below="@+id/client_name_event"
+        android:layout_marginRight="7dp"
+        android:text="Tracking No."
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tracking_no_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/client_name_event"
+        android:layout_alignLeft="@+id/client_name_event"
+        android:layout_marginLeft="90dp"
+        android:layout_alignStart="@+id/client_name_event" />
+
+    <TextView
+        android:text="Phone 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone1_abel_event"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/tracking_no_event" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone1_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/tracking_no_event"
+        android:layout_alignLeft="@+id/tracking_no_event"
+        android:layout_alignStart="@+id/tracking_no_event" />
+
+    <TextView
+        android:text="Phone 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone2_label_event"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone1_event"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone2_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone1_event"
+        android:layout_alignLeft="@+id/phone1_event"
+        android:layout_alignStart="@+id/phone1_event" />
+
+    <TextView
+        android:text="Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contry_label_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone2_event"
+        android:layout_marginLeft="7dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contry_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/phone2_event"
+
+        android:layout_alignLeft="@+id/phone2_event"
+        android:layout_alignStart="@+id/phone2_event" />
+
+    <TextView
+        android:text="Governorate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gov_label_event"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/contry_event"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gov_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/contry_event"
+        android:layout_alignLeft="@+id/contry_event"
+        android:layout_alignStart="@+id/contry_event" />
+
+    <TextView
+        android:text="Area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areas_label_event"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/gov_event"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areas_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/gov_event"
+        android:layout_alignLeft="@+id/gov_event"
+        android:layout_alignStart="@+id/gov_event" />
+
+    <TextView
+        android:text="Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_label_event"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/areas_event"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/address_event"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/areas_event"
+        android:layout_alignLeft="@+id/areas_event"
+        android:layout_alignStart="@+id/areas_event" />
+
+
+
+    <TextView
+        android:text="Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_label_event"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/address_event"/>
+    <TextView
+        android:id="@+id/Total_event"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/address_event"/>
+
+    <Button
+        android:id="@+id/dr_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:onClick="updated_shipment"
+        android:text="@string/button_Delivery"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="72dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="49dp"
+        android:shape="oval"
+        android:layout_below="@+id/address_label_event"
+        android:layout_alignLeft="@+id/address_label_event"
+        android:layout_alignStart="@+id/address_label_event" />
+
+</RelativeLayout>

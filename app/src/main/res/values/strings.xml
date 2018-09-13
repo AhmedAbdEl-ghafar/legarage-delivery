@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">legarage-delivery</string>
+    <string name="welcome_string">Le Garage</string>
+    <string name="hint_username">UserName...</string>
+    <string name="hint_password">Password...</string>
+    <string name="button_signin">SIGN IN</string>
+    <string name="button_DR">Daily Report</string>
+    <string name="button_Delivery">Delivered</string>
+    <string name="button_signout">SIGN OUT</string>
+
+</resources>
